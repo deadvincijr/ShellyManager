@@ -1,0 +1,71 @@
+body {
+    background-color: aqua;
+}
+
+
+.DownloadButtons {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 100px;
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#Textbox {
+    margin-top: 50px;
+}
+
+#ProgramBox {
+    height: 100%;
+    overflow-y: scroll;
+    width: 400px;
+    background-color: gray;
+    margin-right: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 20px;
+    
+}
+#BitcoinMiner {
+    color: white;
+    background-image: url("Bitcoin.jpg");
+    background-size: cover;
+    font-size: 30px;
+}
+
+#Rooms {
+    color: white;
+    background-image: url("RoomsEntrance.png");
+    background-size: cover;
+    font-size: 30px;
+}
+
+#Parrot {
+    color: white;
+    background-image: url("parrot.jpg");
+    background-size: cover;
+    font-size: 30px;
+}
+
+#NootNoot {
+    color: white;
+    background-image: url("NootNoot.jpg");
+    background-size: cover;
+    font-size: 30px;
+}
+
+#A90 {
+    color: red;
+    background-image: url("A90.png");
+    background-size: cover;
+    font-size: 30px;
+}
