@@ -1,17 +1,19 @@
-function DownloadBitcoin() {
-    window.open("https://drive.google.com/uc?export=download&id=1PjkVRXVtFhI6zFG13skZcYjXf7nx2mxB", "_blank");
-}
-function DownloadRooms() {
-    window.open("https://drive.google.com/uc?export=download&id=1d9KRdIgFURJ8P_S-xFNBkOg2Osm5IDgB")
-}
-function DownloadParrot() {
-    window.open("https://drive.google.com/uc?export=download&id=1VHEshmjsFp6Log1iTirO6lTnH1ZS4QvU")
-}
+function downloadFile(fileName) {
+  // Create an anchor element
+  const link = document.createElement('a');
 
-function DownloadNootNoot() {
-    window.open("https://drive.google.com/uc?export=download&id=1W7-rlgT0kJEb_Xi_g_NbQcuBsirysYse")
-}
+  // Set the href to the path of the file
+  link.href = fileName;
 
-function DownloadA90() {
-    window.open("https://drive.google.com/uc?export=download&id=1KEEqDa43Yu6dZyX0qPd3vawEjzGZSAob")
+  // Set the download attribute to the desired file name
+  link.download = fileName;
+
+  // Append the link to the body
+  document.body.appendChild(link);
+
+  // Programmatically click the link
+  link.click();
+
+  // Remove the link from the body
+  document.body.removeChild(link);
 }
