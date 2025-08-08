@@ -1,28 +1,34 @@
-<DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
     <head>
+        <title>Shelly Setup Tutorial</title>
         <link rel="stylesheet" href="Style.css">
         <script src="Script.js"></script>
-        <title>Shelly Manager</title>
     </head>
     <body>
-        <div id="Textbox">Welcome to Dean's Shell from H*** Program manager. Please follow all instructions to get set up.
-            <ol>
-                <li>If you haven't gotten a Shelly Program before, Please go to file explorer, click on this PC, click on Local Disk (C:), and then make a new folder there titled EXCACLY "ShellyPrograms". Whenever you get programs from me don't change any names and put them into that folder and no others for them to function properly.</li>
-                <li>Click on a program you would like to download. It may bring you to a page that says this program is infected with a virus. Sometimes google drive will think that certain lines of code in these projects indicate a virus. They are completely harmless. The most they do is shut down your computer.</li>
-                <li>After you have downloaded the folder, you should see the zip file of the program you downloaded in your downloads folder. Go to that and right click the folder. When it brings up the options hit extract all.</li>
-                <li>When it tells you to go to a file location hit browse. You need to then navigate in that window to This PC, Local Disk (C:), then your ShellyPrograms folder, and then once you are inside the ShellyPrograms folder (not inside another program's folder) hit select folder in the bottom left.</li>
-                <li>Now if you go into ShellyPrograms you should see the new and working program for you to begin using!</li>
-            </ol>
-            Make sure If you are using the old A90 Program you only use A90.exe and A90F.exe as the files you launch. The content data is not hidden like it is in the other files.
-        </div>
+        <h1>Tutorial</h1>
+        <p>First you want to open your file explorer app. Then go to This PC, and double click on Local Disk (C:).</p>
+        <img src="FileLocation1.PNG">
+        <p>Then you want to right click anywhere where there isn't a file to bring up this menu. Then click New and some options should come up. Click New file.</p>
+        <img src="NewFile1.PNG">
+        <p>When you make a new file, name it EXACTLY with no space or different capitalization, "ShellyPrograms". This step is VERY important. If you do it wrong, none of your programs will work.</p>
+        <img src="FileLocation2.png">
+        <p>Now your ShellyPrograms Folder is set up. Now go download your program from the main site. When you click on your program, it will download. Go to your downloads menu in google chrome and you will see a zip file that just got downloaded to your computer. Click on the little file icon to the right of the name.</p>
+        <img src="ChromeDownload.PNG">
+        <p>It should bring up file explorer. You will see your program at the top of your downloads folder. Now, go into that zip folder by double-clicking on it. You should see a file that has the same name but is not zipped.</p>
+        <img src="DownloadedFile.PNG">
+        <p>Once you are inside, right click on a blank part of the file explorer app. you should see a small menu come up. Click the extract all button at the bottom of the menu.</p>
+        <img src="Zipextract.PNG">
+        <p>You should see a menu with a file location come up. Click browse</p>
+        <img src="Browsebutton.PNG">
+        <p>Once you click that button go to your ShellyPrograms Folder by going to This PC, Local Disk (C:), ShellyPrograms, and then hit Select Folder.</p>
+        <img src="SelectedFileLocation.PNG">
+        <p>If everything has been done right you should see C:\ShellyPrograms in your extracting menu.</p>
+        <img src="Extracting.PNG">
+        <p>Now hit the extract button. Once it's done downloading, if you go to your ShellyPrograms Folder you should see your new program. Now it should work just fine. Congratulations! You're All set up. Now for other programs you can just extract the zip file to ShellyPrograms by repeating the last 6 steps. Go have some fun now with your new program.</p>
 
-        <div id="ProgramBox">
-        <div class="DownloadButtons" id="Rooms" onclick="downloadFile('Rooms Program.zip')">Rooms Service</div>
-        <div class="DownloadButtons" id="BitcoinMiner" onclick="downloadFile('Bitcoin Miner.zip')">Bitcoin Miner</div>
-        <div class="DownloadButtons" id="NootNoot" onclick="downloadFile('Noot Noot Program.zip')">NootNoot Program</div>
-        <div class="DownloadButtons" id="Parrot" onclick="downloadFile('Parrot Program.zip')">Parrot Program</div>
-        <div class="DownloadButtons" id="A90" onclick="downloadFile('A90 Program.zip')">A90 Program (OLD)</div>
-        </div>
     </body>
+
+
+
 </html>
