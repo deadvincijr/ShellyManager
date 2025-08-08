@@ -1,1 +1,28 @@
-Hello
+<DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="Style.css">
+        <script src="Script.js"></script>
+        <title>Shelly Manager</title>
+    </head>
+    <body>
+        <div id="Textbox">Welcome to Dean's Shell from H*** Program manager. Please follow all instructions to get set up.
+            <ol>
+                <li>If you haven't gotten a Shelly Program before, Please go to file explorer, click on this PC, click on Local Disk (C:), and then make a new folder there titled EXCACLY "ShellyPrograms". Whenever you get programs from me don't change any names and put them into that folder and no others for them to function properly.</li>
+                <li>Click on a program you would like to download. It may bring you to a page that says this program is infected with a virus. Sometimes google drive will think that certain lines of code in these projects indicate a virus. They are completely harmless. The most they do is shut down your computer.</li>
+                <li>After you have downloaded the folder, you should see the zip file of the program you downloaded in your downloads folder. Go to that and right click the folder. When it brings up the options hit extract all.</li>
+                <li>When it tells you to go to a file location hit browse. You need to then navigate in that window to This PC, Local Disk (C:), then your ShellyPrograms folder, and then once you are inside the ShellyPrograms folder (not inside another program's folder) hit select folder in the bottom left.</li>
+                <li>Now if you go into ShellyPrograms you should see the new and working program for you to begin using!</li>
+            </ol>
+            Make sure If you are using the old A90 Program you only use A90.exe and A90F.exe as the files you launch. The content data is not hidden like it is in the other files.
+        </div>
+
+        <div id="ProgramBox">
+        <div class="DownloadButtons" id="Rooms" onclick="downloadFile('Rooms Program.zip')">Rooms Service</div>
+        <div class="DownloadButtons" id="BitcoinMiner" onclick="downloadFile('Bitcoin Miner.zip')">Bitcoin Miner</div>
+        <div class="DownloadButtons" id="NootNoot" onclick="downloadFile('Noot Noot Program.zip')">NootNoot Program</div>
+        <div class="DownloadButtons" id="Parrot" onclick="downloadFile('Parrot Program.zip')">Parrot Program</div>
+        <div class="DownloadButtons" id="A90" onclick="downloadFile('A90 Program.zip')">A90 Program (OLD)</div>
+        </div>
+    </body>
+</html>
